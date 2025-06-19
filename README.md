@@ -18,3 +18,57 @@ Se ainda não estiverem instalados, execute o seguinte comando no terminal:
 ### Execute a collection de testes
 Execute o comando para que seja gerado o relatorio:
 *  newman run Prova.postman_collection.json -r htmlextra
+
+## Cypress
+
+### 📋 Descrição
+Este projeto contém testes automatizados com Cypress para o site [https://demoqa.com](https://demoqa.com), cobrindo cenários positivos e negativos de formulários, tabelas e checkboxes.
+
+### 🧪 Testes Implementados
+
+- ✅ Formulário com preenchimento completo
+- ❌ Formulário com e-mail inválido (teste negativo)
+- ✅ Cadastro de novo usuário na tabela dinâmica
+- ✅ Seleção de múltiplos checkboxes
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### 1. Clone o repositório
+
+```bash```
+git clone https://github.com/LeticialMoraes/S206-Prova.git
+cd S206-Prova
+
+### 2. Instale as dependências
+
+```bash```
+* npm install cypress --save-dev
+
+## ▶️ Executando os testes
+
+### Modo interativo (com interface gráfica):
+
+```bash```
+npx cypress open
+Selecione o navegador desejado e execute o arquivo `prova1.cy.js`.
+
+### Modo headless (terminal):
+
+```bash```
+npx cypress run
+
+## 📊 Geração de Relatório com Mochawesome
+### 1. Instale o Mochawesome:
+
+```bash```
+* npm i cypress-mochawesome-reporter
+
+### 2. Execute os testes com o reporter:
+
+```bash```
+npx cypress run --reporter mochawesome
+
+
+
