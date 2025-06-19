@@ -19,6 +19,8 @@ Se ainda não estiverem instalados, execute o seguinte comando no terminal:
 Execute o comando para que seja gerado o relatorio:
 *  newman run Prova.postman_collection.json -r htmlextra
 
+---
+
 ## Cypress
 
 ### 📋 Descrição
