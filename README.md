@@ -40,8 +40,8 @@ Este projeto contém testes automatizados com Cypress para o site [https://demoq
 ### 1. Clone o repositório
 
 ```bash```
-git clone https://github.com/LeticialMoraes/S206-Prova.git
-cd S206-Prova
+* git clone https://github.com/LeticialMoraes/S206-Prova.git
+* cd S206-Prova
 
 ### 2. Instale as dependências
 
